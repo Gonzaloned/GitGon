@@ -5,8 +5,8 @@ gane = False
 print("Tenés 5 intentos para adivinar un entre 0 y 100")
 intento = 1
 while intento < 6 and not gane:
-    numero_Ingresado = int(input('Ingresa tu número: '))
-    if numero_Ingresado == numero_aleatorio:
+    numero_ingresado = int(input('Ingresa tu número: '))
+    if numero_ingresado == numero_aleatorio:
         print('Ganaste! y necesitaste {} intentos!!!'.format(intento))
         gane = True
     else:
